@@ -14,6 +14,7 @@
 		752C77221F793FBA00294E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752C77201F793FBA00294E8D /* LaunchScreen.storyboard */; };
 		752C772D1F793FBA00294E8D /* educational_musicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C772C1F793FBA00294E8D /* educational_musicTests.swift */; };
 		752C77381F793FBA00294E8D /* educational_musicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C77371F793FBA00294E8D /* educational_musicUITests.swift */; };
+		82370D4D1F97966000F1D991 /* Funky_Sting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82370D4C1F97957300F1D991 /* Funky_Sting.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		752C77331F793FBA00294E8D /* educational musicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "educational musicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		752C77371F793FBA00294E8D /* educational_musicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = educational_musicUITests.swift; sourceTree = "<group>"; };
 		752C77391F793FBA00294E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82370D4C1F97957300F1D991 /* Funky_Sting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Funky_Sting.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		752C77161F793FBA00294E8D /* educational music */ = {
 			isa = PBXGroup;
 			children = (
+				82370D4B1F97950600F1D991 /* New Group */,
 				752C77171F793FBA00294E8D /* AppDelegate.swift */,
 				752C77191F793FBA00294E8D /* ViewController.swift */,
 				752C771B1F793FBA00294E8D /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				752C77391F793FBA00294E8D /* Info.plist */,
 			);
 			path = "educational musicUITests";
+			sourceTree = "<group>";
+		};
+		82370D4B1F97950600F1D991 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				82370D4C1F97957300F1D991 /* Funky_Sting.mp3 */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82370D4D1F97966000F1D991 /* Funky_Sting.mp3 in Resources */,
 				752C77221F793FBA00294E8D /* LaunchScreen.storyboard in Resources */,
 				752C771F1F793FBA00294E8D /* Assets.xcassets in Resources */,
 				752C771D1F793FBA00294E8D /* Main.storyboard in Resources */,

@@ -7,9 +7,10 @@
 //
 
 import UIKit
-
+import AVFoundation
 class ViewController: UIViewController {
 
+    var audioPlayer = AVAudioPlayer()
     
     @IBOutlet weak var label: UILabel!
     override func viewDidLoad() {
@@ -19,7 +20,14 @@ class ViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        do {
+        audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "Funky_Sting", ofType: "mp3")!))
+            audioPlayer.prepareToPlay()
         // Dispose of any resources that can be recreated.
+        }
+        catch {
+            print(error)
+        }
     }
 
 
